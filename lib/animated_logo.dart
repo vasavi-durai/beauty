@@ -10,6 +10,7 @@ class AnimatedLogo extends StatefulWidget {
     required this.imagePath,
     required this.width,
     required this.height,
+
   });
 
   @override
@@ -44,7 +45,7 @@ class _AnimatedLogoState extends State<AnimatedLogo> with SingleTickerProviderSt
       animation: _animation,
       builder: (context, child) {
         return Transform.translate(
-          offset: Offset(0,_animation.value),
+          offset: Offset(_animation.value,0),
           child: child,
         );
       },

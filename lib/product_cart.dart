@@ -50,18 +50,34 @@ class ProductCart extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 1.5),
-                  Row(
+                  Column(
                     children: [
                       Text(
-                        products.price,
+                        "\$${products.price}",
                         style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 14,
                           color: Color.fromARGB(255, 220, 220, 5),
                         ),
                       ),
-                    
-
+                      const SizedBox(height: 1.5),
+                      Text(
+                        products.review,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 12,
+                          color: Color.fromARGB(255, 110, 110, 105),
+                        ),
+                      ),
+                       const SizedBox(height: 1.5),
+                      Text(
+                        products.rate.toString(),
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 10,
+                          color: Color.fromARGB(255, 180, 7, 154),
+                        ),
+                      ),
                     ],
                   ),
                 ],

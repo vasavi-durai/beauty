@@ -25,7 +25,7 @@ class MyAppBar extends StatelessWidget {
                 ),
                 iconSize: 30,
                 onPressed: () async {
-                  final Uri chaturl = Uri.parse("https://wa.me/+9952292216/");
+                  final Uri chaturl = Uri.parse("https://wa.me/+9715323056/");
                   launchUrl(chaturl);
                 },
               ),

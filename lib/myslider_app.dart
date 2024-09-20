@@ -39,10 +39,11 @@ class _ImageSliderState extends State<ImageSlider> {
         itemBuilder: (context, index, realIdx) {
           return GestureDetector(
             onTap: () {
+              // ignore: avoid_print
               print("Tapped on image $index");
             },
             child: AnimatedContainer(
-              duration: const Duration(milliseconds: 300),
+              duration: const Duration(milliseconds: 200),
               margin: const EdgeInsets.symmetric(horizontal: 4.0),
               child: ColorFiltered(
                 colorFilter: _currentIndex == index

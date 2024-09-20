@@ -10,7 +10,7 @@ class MySearchBar extends StatelessWidget {
       height: 35,
       width: double.infinity,
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 242, 242, 231),
+        color: const Color.fromARGB(255, 215, 198, 211),
         borderRadius: BorderRadius.circular(30),
         
       ),

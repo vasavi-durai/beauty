@@ -1,7 +1,7 @@
+import 'package:beauty_app/myslider_app.dart';
 import 'package:flutter/material.dart';
 import 'package:beauty_app/app_bar.dart';
 import 'package:beauty_app/category.dart';
-import 'package:beauty_app/myslider_app';
 import 'package:beauty_app/nav_bar.dart';
 import 'package:beauty_app/product_cart.dart';
 import 'package:beauty_app/search_bar.dart';
@@ -19,7 +19,7 @@ class _BeautymeState extends State<Beautyme> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: const Navbar(), // Set the drawer here
-      backgroundColor: const Color.fromARGB(255, 233, 205, 215),
+      backgroundColor: const Color.fromARGB(255, 245, 203, 224),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(10),
